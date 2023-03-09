@@ -1,19 +1,11 @@
----
-title: "Images and Tables"
-author: [Author]
-date: "2017-02-20"
-subject: "Markdown"
-keywords: [Markdown, Example]
-...
-
-# Images and Tables
+# Tabellen
 
 ## LaTeX Table with Caption
 
 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
 
 \begin{longtable}[]{llllllll}
-\caption[Nam liber tempor cum soluta nobis eleifend option congue.]{Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.} \\
+\caption[Latex Table mit Caption]{Latex Table mit Caption} \\
 \toprule
 Test Nr. & Position & Radius & Rot & Grün & Blau &
 beste Fitness & Abweichung\tabularnewline
@@ -33,12 +25,6 @@ beste Fitness & Abweichung\tabularnewline
 \bottomrule
 \end{longtable}
 
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
-
-## Image with Caption
-
-![Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.](source/img/image.png)
-
 ## Markdown Table without Caption
 
 Lorem markdownum Letoia, et alios: figurae flectentem annis aliquid Peneosque abesse, obstat gravitate. Obscura atque coniuge, per de coniunx, sibi medias
@@ -55,9 +41,17 @@ Test Nr. | Position | Radius | Rot | Grün | Blau | beste Fitness | Abweichung |
 6 |  20 % |  50 % |  10 % |  10 % |  10 % |  7,0034 |  0,3930 |
 7 |  40 % |  15 % |  15 % |  15 % |  15 % |  6,9122 |  0,3018 |
 
-Porrigitur et Pallas nuper longusque cratere habuisse sepulcro pectore fertur.
-Laudat ille auditi; vertitur iura tum nepotis causa; motus. Diva virtus! Acrota destruitis vos iubet quo et classis excessere Scyrumve spiro subitusque mente Pirithoi abstulit, lapides.
 
-## Image without Caption
+## Markdown Table with Caption
 
-![](source/img/image.png)
+Test Nr. | Position | Radius | Rot | Grün | Blau | beste Fitness | Abweichung |
+|---|---|---|---|---|---|---|---|
+1 |  20 % |  20 % |  20 % |  20 % |  20 % |  7,5219 |  0,9115 |
+2 |   0 % |  25 % |  25 % |  25 % |  25 % |  8,0566 |  1,4462 |
+3 |   0 % |   0 % |  33 % |  33 % |  33 % |  8,7402 |  2,1298 |
+4 |  50 % |  20 % |  10 % |  10 % |  10 % |  6,6104 |  0,0000 |
+5 |  70 % |   0 % |  10 % |  10 % |  10 % |  7,0696 |  0,4592 |
+6 |  20 % |  50 % |  10 % |  10 % |  10 % |  7,0034 |  0,3930 |
+7 |  40 % |  15 % |  15 % |  15 % |  15 % |  6,9122 |  0,3018 |
+
+Table: Tabelle mit Caption. {#tbl:withcaption}

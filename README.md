@@ -5,8 +5,9 @@ Dies ist ein Fork des sehr, sehr, sehr guten Repositories unter [https://github.
 
 ## Erweiterungen, Anpassungen
 
-* [x] Makefile mit veschiedenen Optionen
-
-
-## Beispiel der Befehle
-
+* [x] Build.sh mit verschiedenen Option
+* [x] Biblio funktioniert mit bibtex-File
+* [x] Abbildungsverzeichnis
+* [x] Tabellenverzeichnis
+* [x] Listingsverzeichnis
+* [x] Crossref (Hier ist die [Hilfe](https://lierdakil.github.io/pandoc-crossref/#latex-customization))

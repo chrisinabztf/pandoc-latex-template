@@ -1,0 +1,61 @@
+---
+title: Haupttitel
+subtitle: Subtitel
+author: Firstname Surname
+date: January 2015
+location: University College London, UK
+supervisor:
+- Professor Louis Fage
+- Captain J. Y. Cousteau
+lang: de-CH
+papersize: A4
+fontsize: 12pt
+mainfont: LiberationSerif
+sansfont: LiberationSans
+monofont: LiberationMono
+linestretch: 1.5
+titlepage: true
+toc: true
+toc-own-page: true
+header-left: "\\hspace{1cm}"
+header-center: "\\leftmark"
+header-right: "Page\thepage"
+footer-left: "\\thetitle"
+footer-center: ""
+footer-right: "\\theauthor"
+footnotes-pretty: true
+codeBlockCaptions: true
+colorlinks: true
+header-includes:
+- |
+  ```{=latex}
+  \usepackage{awesomebox}
+  \usepackage{tcolorbox}
+
+  \newtcolorbox{info-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black}
+  \newtcolorbox{warning-box}{colback=orange!5!white,arc=0pt,outer arc=0pt,colframe=orange!80!black}
+  \newtcolorbox{error-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!75!black}
+  ```
+pandoc-latex-environment:
+  noteblock: [note]
+  tipblock: [tip]
+  warningblock: [warning]
+  cautionblock: [caution]
+  importantblock: [important]
+  tcolorbox: [box]
+  info-box: [info]
+  warning-box: [warning]
+  error-box: [error]
+figureTitle: Abbildung
+tableTitle: Tabelle
+listingTitle: Listing
+reference-section-title: Literaturverzeichnis
+lofTitle: Abbildungsverzeichnis
+lotTitle: Tabellenverzeichnis
+lolTitle: Listingsverzeichnis
+figPrefix: Abb.
+eqnPrefix: Gl.
+tblPrefix: Tbl.
+lstPrefix: Lst.
+secPrefix: Abschnitt.
+---
