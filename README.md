@@ -14,3 +14,4 @@ Dies ist ein Fork des sehr, sehr, sehr guten Repositories unter [https://github.
 * [x] Listingsverzeichnis
 * [x] Crossref (Hier ist die [Hilfe](https://lierdakil.github.io/pandoc-crossref/#latex-customization))
 * [] Build mit Makefile
+* [] Docx Export in Makefile

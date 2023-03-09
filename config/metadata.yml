@@ -19,10 +19,17 @@ toc: true
 toc-own-page: true
 header-left: "\\hspace{1cm}"
 header-center: "\\leftmark"
-header-right: "Page\thepage"
+header-right: "\\thepage"
 footer-left: "\\thetitle"
 footer-center: ""
 footer-right: "\\theauthor"
+titlepage-rule-color: "360049"
+titlepage-background: "style/backgrounds/background1.pdf"
+# Titlepage Option in Examples nachgucken
+#titlepage-color: "3C9F53"
+#titlepage-text-color: "FFFFFF"
+#titlepage-rule-color: "FFFFFF"
+#titlepage-rule-height: 2
 footnotes-pretty: true
 codeBlockCaptions: true
 colorlinks: true
