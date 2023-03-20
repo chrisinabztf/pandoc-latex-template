@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Praesent enim urna, dapibus et bibendum vel, consectetur et turpis.
 Cras a molestie nulla. [@Hemingway1952]
 
-Blah blah [see @Hemingway1952, pp. 33-35.
+Blah blah [see @Hemingway1952, pp. 33-35].
 
 Blah blah [@Hemingway1952, pp. 33-35, 38-39 and *passim*].
 
